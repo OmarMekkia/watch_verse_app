@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: watch_verse_back_end
+
+  data:
+    mongodb:
+      uri: ${MONGO_URI}
+
+JWT_SECRET_KEY_BASE64: ${JWT_SECRET_KEY_BASE64}
+
+server:
+  address: 0.0.0.0
